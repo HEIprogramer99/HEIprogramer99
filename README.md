@@ -45,15 +45,15 @@ while run:
     if keys[pygame.K_UP]:
         y -= vel
 
-    # Movendo o personagem para baixo
+    
     if keys[pygame.K_DOWN]:
         y += vel
 
-    # Desenhando o personagem na tela
+    
     win.fill((0, 0, 0))
     pygame.draw.rect(win, (255, 0, 0), (x, y, width, height))
     pygame.display.update()
 
-# Finalizando o jogo
+
 pygame.quit()
 
